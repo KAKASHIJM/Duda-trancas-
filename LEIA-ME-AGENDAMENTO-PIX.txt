@@ -1,0 +1,1 @@
+Duda Tranças — interface de agendamento e Pix aprimorada. Selecione data, toque nos horários livres, preencha os dados e veja o valor/chave Pix em uma tela guiada. Chave: 71984625604. Pix de confirmação MANUAL; sem sincronização entre dispositivos, pois o sistema usa armazenamento local. A senha front-end não oferece segurança real. Publique a pasta completa no Netlify.

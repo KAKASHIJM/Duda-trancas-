@@ -1,0 +1,10 @@
+DUDA TRANÇAS — SINCRONIZAÇÃO ONLINE SEM SUPABASE
+
+1. No Netlify, crie um site a partir de um repositório Git (não use apenas deploy manual de HTML).
+2. Envie TODOS os arquivos desta pasta ao repositório, incluindo package.json, netlify.toml e netlify/functions.
+3. Em Site configuration > Environment variables, configure DUDA_ADMIN_PASSWORD com sua senha particular (por exemplo a senha que já utiliza). NÃO escreva a senha no HTML.
+4. Faça deploy; abra /admin.html, entre com a senha definida no Netlify.
+5. Teste um agendamento em outro aparelho e confirme se aparece no painel.
+6. O Pix 71984625604 continua com confirmação MANUAL no banco.
+
+IMPORTANTE: utiliza Netlify Blobs. Para operação comercial de alto volume, use banco transacional (PostgreSQL), pois gravações simultâneas no mesmo objeto podem causar conflitos. O preço do serviço é enviado pelo cliente e não deve ser usado como valor financeiro confiável sem validação no servidor. A disponibilidade e o status são compartilhados; não há autenticação de cliente. Antes de produção, configurar proteção anti-spam, validação de preço no backend e política de privacidade.

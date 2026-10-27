@@ -1,0 +1,1 @@
+Correções de datas e visibilidade do Pix. Chave: 71984625604. Confirmação manual. Painel apenas local, sem sincronização entre dispositivos e sem autenticação segura.

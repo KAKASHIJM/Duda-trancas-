@@ -1,0 +1,11 @@
+DUDA TRANÇAS — CORREÇÕES DE LOGIN E IMAGENS
+
+1. Publique TODOS os arquivos da raiz do ZIP no GitHub, sem criar uma pasta extra. Confirme que /assets/trancas-foto.jpeg e /assets/styles/soltas.jpg estão no repositório.
+2. Netlify > Project configuration > Environment variables: crie DUDA_ADMIN_PASSWORD com a senha desejada. Não existe senha padrão nesta versão online.
+3. Execute Deploys > Trigger deploy > Deploy project (ou Clear cache and deploy site).
+4. Abra https://SEU-SITE.netlify.app/assets/trancas-foto.jpeg para conferir se a imagem abre. Se retornar 404, os assets não foram publicados na raiz.
+5. Abra https://SEU-SITE.netlify.app/.netlify/functions/admin no navegador: deve retornar JSON com erro de método (405). Se retornar HTML/404, as funções não foram publicadas.
+6. Entre em /admin.html com a senha da variável de ambiente.
+7. Se falhar, confira Deploy logs e Functions no Netlify. Não coloque a senha em arquivos públicos.
+
+As imagens estão incluídas no ZIP. Login online requer Netlify Functions e a variável de ambiente. Pix manual 71984625604.

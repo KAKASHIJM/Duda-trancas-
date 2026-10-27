@@ -1,0 +1,3 @@
+Senha solicitada: Duda123
+
+ATENÇÃO: senha verificada em JavaScript no navegador, não é proteção segura. Pessoas com conhecimento técnico podem contornar. Não utilize para dados sensíveis reais. Para segurança real, use autenticação no servidor e banco protegido.
